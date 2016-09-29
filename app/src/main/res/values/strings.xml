@@ -1,3 +1,5 @@
 <resources>
-    <string name="app_name">CarbookApp</string>
+    <string name="app_name">Carbook</string>
+    <string name="User">User</string>
+    <string name="Password">Password</string>
 </resources>
