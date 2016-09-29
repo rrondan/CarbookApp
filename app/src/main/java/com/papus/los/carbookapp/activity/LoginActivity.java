@@ -2,6 +2,7 @@ package com.papus.los.carbookapp.activity;
 
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
+import android.view.View;
 import android.widget.Button;
 import android.widget.EditText;
 
@@ -17,6 +18,19 @@ public class LoginActivity extends BaseActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_login);
 
- //sdsd
+        userEditText = (EditText)findViewById(R.id.userEditText);
+        passwordEditText = (EditText)findViewById(R.id.passwordEditText);
+        sigInButton = (Button) findViewById(R.id.sigInButton);
+
+        sigInButton.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                if(userEditText.getText().toString().equals("user"))
+                {
+
+                }
+            }
+        });
+
     }
 }
