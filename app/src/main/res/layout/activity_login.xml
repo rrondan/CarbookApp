@@ -54,13 +54,13 @@
             android:layout_height="wrap_content"
             android:orientation="vertical"
             android:paddingTop="20dp">
-        <Button
-            android:text="Sing In"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:id="@+id/button"
-            android:background="@color/colorPrimary"
-            android:textColor="@color/colorWhite"/>
+            <Button
+                android:text="Sing In"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/sigInButton"
+                android:background="@color/colorPrimary"
+                android:textColor="@color/colorWhite"/>
 
         </LinearLayout>
     </LinearLayout>
