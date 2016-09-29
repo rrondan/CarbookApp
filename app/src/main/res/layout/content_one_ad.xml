@@ -11,9 +11,49 @@
     android:paddingTop="@dimen/activity_vertical_margin"
     app:layout_behavior="@string/appbar_scrolling_view_behavior"
     tools:context="com.papus.los.carbookapp.activity.OneAdActivity"
-    tools:showIn="@layout/activity_one_ad">
+    tools:showIn="@layout/activity_one_ad"
+    android:background="@color/colorWhite">
 
-    
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <ImageView
+            android:layout_width="30dp"
+            android:layout_height="38dp"
+            android:id="@+id/userImageView"
+            android:src="@drawable/usernorris"/>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:paddingLeft="10dp">
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:paddingTop="5dp">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/nameTextView"
+                    android:text="@string/user_default"
+                    android:textStyle="bold"/>
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:id="@+id/postTextView"
+                    android:text="@string/postmessage_default"/>
+            </LinearLayout>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/dateTextView"
+                android:text="@string/date_default"
+                android:textStyle="italic"/>
+        </LinearLayout>
+    </LinearLayout>
+
 
 
 </RelativeLayout>

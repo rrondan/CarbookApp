@@ -6,4 +6,5 @@
     <string name="postmessage_default">" "posted an ad in Carbook</string>
     <string name="titleadd_default">Tunning my car</string>
     <string name="title_activity_one_ad">OneAdActivity</string>
+    <string name="date_default">Setember 29 7:00 am</string>
 </resources>
