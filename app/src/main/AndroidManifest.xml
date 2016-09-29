@@ -15,6 +15,16 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+        <activity android:name=".activity.AdsActivity" />
+        <activity
+            android:name=".activity.OneAdActivity"
+            android:label="@string/title_activity_one_ad"
+            android:parentActivityName=".activity.AdsActivity"
+            android:theme="@style/AppTheme.NoActionBar">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.papus.los.carbookapp.activity.AdsActivity" />
+        </activity>
     </application>
 
 </manifest>

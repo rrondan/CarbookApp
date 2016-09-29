@@ -25,9 +25,10 @@ public class LoginActivity extends BaseActivity {
         sigInButton.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                if(userEditText.getText().toString().equals("user"))
-                {
-
+                if(userEditText.getText().toString().equals("user")) {
+                    if(passwordEditText.getText().toString().equals("password")) {
+                        ChangeScreen(AdsActivity.class,true);
+                    }
                 }
             }
         });

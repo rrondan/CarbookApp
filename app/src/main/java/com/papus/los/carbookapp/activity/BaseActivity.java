@@ -9,7 +9,7 @@ import android.support.v7.app.AppCompatActivity;
 
 public class BaseActivity  extends AppCompatActivity {
 
-    public void ChangeScreem(Class toActivity,Boolean delete)
+    public void ChangeScreen(Class toActivity,Boolean delete)
     {
         Intent intent = new Intent(this,toActivity);
         startActivity(intent);
@@ -18,7 +18,7 @@ public class BaseActivity  extends AppCompatActivity {
 
     }
     //ssss
-    public void ChangeScreem(Class toActivity,Boolean delete,Integer fromAnimation,Integer toAnimation)
+    public void ChangeScreen(Class toActivity,Boolean delete,Integer fromAnimation,Integer toAnimation)
     {
         Intent intent = new Intent(this,toActivity);
         startActivity(intent);
