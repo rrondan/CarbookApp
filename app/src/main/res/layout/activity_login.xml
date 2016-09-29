@@ -10,7 +10,7 @@
     android:paddingRight="@dimen/activity_horizontal_margin"
     android:paddingTop="@dimen/activity_vertical_margin"
     android:background="@color/colorWhite"
-    tools:context="com.papus.los.carbookapp.LoginActivity">
+    tools:context="com.papus.los.carbookapp.activities.LoginActivity">
 
     <LinearLayout
         android:layout_width="match_parent"
