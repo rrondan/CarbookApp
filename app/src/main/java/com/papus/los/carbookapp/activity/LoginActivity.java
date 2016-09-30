@@ -27,7 +27,7 @@ public class LoginActivity extends BaseActivity {
             public void onClick(View view) {
                 if(userEditText.getText().toString().equals("user")) {
                     if(passwordEditText.getText().toString().equals("password")) {
-                        ChangeScreen(AdsActivity.class,true);
+                        ChangeScreen(AdsActivity.class,false);
                     }
                 }
             }
